@@ -1,0 +1,15 @@
+path: path_to_DroneVehicle_yolo-obb
+train_rgb: train_ir.txt
+val_rgb: val_ir.txt
+test_rgb: test_ir.txt
+
+train_ir: train_rgb.txt
+val_ir: val_rgb.txt
+test_ir: test_rgb.txt
+
+names:
+  0: car
+  1: truck
+  2: bus
+  3: van
+  4: feright_car

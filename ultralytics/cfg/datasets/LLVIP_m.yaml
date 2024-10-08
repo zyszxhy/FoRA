@@ -1,0 +1,12 @@
+path: path_to_LLVIP  # dataset root dir
+train_rgb: train_visible.txt  # train images (relative to 'path')
+val_rgb: test_visible.txt  # val images (relative to 'path')
+test_rgb: test_visible.txt
+
+train_ir: train_infrared.txt  # train images (relative to 'path')
+val_ir: test_infrared.txt  # val images (relative to 'path')
+test_ir: test_infrared.txt
+
+# Classes
+names:
+  0: person
